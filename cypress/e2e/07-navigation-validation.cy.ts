@@ -77,7 +77,7 @@ describe('E2E Test 7 - Navigation and Form Validation Flow', () => {
     cy.get('#submit').click()
     cy.url().should('include', '/contactList')
   })
-
+//
   it('should handle browser back/forward navigation correctly', () => {
     // Navegar a Add Contact
     cy.get('#add-contact').click()
